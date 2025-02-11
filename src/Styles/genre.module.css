@@ -1,0 +1,84 @@
+.main{
+    background-color: black;
+    display: flex;
+
+}
+.right{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  gap: 5vh;
+  /* padding: 2vh; */
+  margin: 5vh;
+}
+.card{
+    margin-top: 3rem;
+    height: 20vh;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:10px ;
+    gap: 1vh;
+}
+.card:hover{
+    cursor: pointer;
+}
+.cardImage{
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+}
+.genretitle{
+    color: white;
+}
+
+.left{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3vh;
+}
+.selectedlist{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    /* grid-template-columns: repeat(3,20%); */
+    gap: 2vh;
+    flex-wrap: wrap;
+
+}
+.title{
+    font-size: 2.5rem;
+    color:rgba(114, 219, 115, 1);
+    font-family: 'Single day';
+    margin-top: 20vh;
+
+}
+.subtitle{
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'roboto';
+}
+.bhanu{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color:rgba(114, 219, 115, 1);
+    height: 5vh;
+    color: white;
+    font-family: 'roboto';
+    font-weight: 200;
+    font-size: 1.3rem;
+    width: 25%;
+    /* text-align: center; */
+}
